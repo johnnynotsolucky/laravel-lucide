@@ -17,7 +17,7 @@ The package will automatically register its service provider.
 You can use any Lucide icon as a Blade component:
 
 ```blade
-<x-lucide::icons.refresh-cw size="16" class="some-class" />
+<x-lucide::refresh-cw size="16" class="some-class" />
 ```
 
 ### Available Props
@@ -32,7 +32,7 @@ You can use any Lucide icon as a Blade component:
 You can also pass any additional HTML attributes to the component, which will be applied to the SVG element:
 
 ```blade
-<x-lucide::icons.refresh-cw size="16" class="some-class" data-testid="refresh-icon" />
+<x-lucide::refresh-cw size="16" class="some-class" data-testid="refresh-icon" />
 ```
 
 ## Publishing the Views

@@ -28,7 +28,7 @@ class LucideServiceProvider extends ServiceProvider
             __DIR__.'/../resources/views' => resource_path('views/vendor/lucide'),
         ], 'lucide-views');
 
-        // Register the component namespace
-        Blade::componentNamespace('johnnynotsolucky\\Lucide\\View\\Components\\Icons', 'lucide.icons');
+        // Register the component namespace with a shorter path
+        Blade::componentNamespace('johnnynotsolucky\\Lucide\\View\\Components\\Icons', 'lucide');
     }
 } 
