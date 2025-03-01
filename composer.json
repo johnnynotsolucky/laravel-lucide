@@ -1,11 +1,11 @@
 {
-    "name": "tyronetudehope/laravel-lucide",
+    "name": "johnnynotsolucky/laravel-lucide",
     "description": "Lucide icons for Laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "tyronetudehope\\lucide\\": "src/"
+            "johnnynotsolucky\\Lucide\\": "src/"
         }
     },
     "authors": [
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "tyronetudehope\\lucide\\LucideServiceProvider"
+                "johnnynotsolucky\\Lucide\\LucideServiceProvider"
             ]
         }
     }

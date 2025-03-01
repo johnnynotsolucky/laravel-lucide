@@ -1,6 +1,6 @@
 <?php
 
-namespace tyronetudehope\lucide\View\Components;
+namespace johnnynotsolucky\Lucide\View\Components;
 
 use Illuminate\View\Component;
 

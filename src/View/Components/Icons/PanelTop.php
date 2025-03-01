@@ -1,8 +1,8 @@
 <?php
 
-namespace tyronetudehope\lucide\View\Components\Icons;
+namespace johnnynotsolucky\Lucide\View\Components\Icons;
 
-use tyronetudehope\lucide\View\Components\Icon;
+use johnnynotsolucky\Lucide\View\Components\Icon;
 
 class PanelTop extends Icon
 {

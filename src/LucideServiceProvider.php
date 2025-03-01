@@ -1,6 +1,6 @@
 <?php
 
-namespace tyronetudehope\lucide;
+namespace johnnynotsolucky\Lucide;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
@@ -29,6 +29,6 @@ class LucideServiceProvider extends ServiceProvider
         ], 'lucide-views');
 
         // Register the component namespace
-        Blade::componentNamespace('tyronetudehope\\lucide\\View\\Components\\Icons', 'lucide.icons');
+        Blade::componentNamespace('johnnynotsolucky\\Lucide\\View\\Components\\Icons', 'lucide.icons');
     }
 } 

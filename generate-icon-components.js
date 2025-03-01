@@ -11,6 +11,22 @@ const __dirname = path.dirname(__filename);
 const VIEWS_DIR = path.resolve(__dirname, 'resources/views/components/icons');
 const COMPONENTS_DIR = path.resolve(__dirname, 'src/View/Components/Icons');
 
+// Function to remove all files in a directory
+function cleanDirectory(directory) {
+	if (fs.existsSync(directory)) {
+		const files = fs.readdirSync(directory);
+		for (const file of files) {
+			const filePath = path.join(directory, file);
+			fs.unlinkSync(filePath);
+		}
+		console.log(`Cleaned directory: ${directory}`);
+	}
+}
+
+// Clean existing icon files
+cleanDirectory(VIEWS_DIR);
+cleanDirectory(COMPONENTS_DIR);
+
 // Ensure the directories exist
 if (!fs.existsSync(VIEWS_DIR)) {
 	fs.mkdirSync(VIEWS_DIR, { recursive: true });
@@ -67,9 +83,9 @@ function createComponentClass(iconName) {
 
 	return `<?php
 
-namespace tyronetudehope\\lucide\\View\\Components\\Icons;
+namespace johnnynotsolucky\\Lucide\\View\\Components\\Icons;
 
-use tyronetudehope\\lucide\\View\\Components\\Icon;
+use johnnynotsolucky\\Lucide\\View\\Components\\Icon;
 
 class ${pascalName} extends Icon
 {

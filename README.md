@@ -7,7 +7,7 @@ A Laravel package that provides [Lucide](https://lucide.dev/) icons as Blade com
 You can install the package via composer:
 
 ```bash
-composer require tyronetudehope/laravel-lucide
+composer require johnnynotsolucky/laravel-lucide
 ```
 
 The package will automatically register its service provider.
