@@ -7,6 +7,6 @@
 		"generate-icons": "node generate-icon-components.js"
 	},
 	"devDependencies": {
-		"lucide": "^0.479.0"
+		"lucide": "^0.482.0"
 	}
 }
