@@ -7,7 +7,7 @@
 
 <svg
     {{ $attributes->merge([
-        'class' => 'lucide lucide-' . strtolower('Filter') . ' ' . $class,
+        'class' => 'lucide lucide-' . strtolower('Funnel') . ' ' . $class,
         'width' => $size,
         'height' => $size,
         'viewBox' => '0 0 24 24',
